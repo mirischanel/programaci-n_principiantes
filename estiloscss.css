@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #1d709c;
+	color: #461d1d;
+	margin: 0;
+	padding: 0;
+}
+header {
+	font-family: 'Bodoni Moda', serif;
+	background-image: url('fondo_css.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color:#2c2d33;
+	text-align: center;
+	padding: 150px 20px;
+
+}
+
+
+
+/* menu */
+
+#menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    gap: 10px;                /* Espaciado opcional entre items */
+}
+
+/* items del menu */
+
+#menu ul li {
+ background-color:#4b2c4b;
+}
+
+/* enlaces del menu */
+
+#menu ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+ font-family: 'Poppins', sans-serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+
+/* items del menu */
+
+#menu ul li {
+ position:relative;
+ margin:0;
+ padding:0;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu ul li:hover {
+ background:#c74cc7;
+}
+
+
+
+/* menu desplegable */
+
+#menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#ffffff;
+ padding:0;
+}
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+ float:none;
+ width:150px
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+ display:block;
+}
+
+
+main {
+	padding: 20px 20px;
+	text-align: center;
+	background-color:#91c2d8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+main h2{
+	color:black;
+	margin-bottom: 10px;
+}
+
+
+footer{
+	background-color: #916996;
+	color: #000000;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
